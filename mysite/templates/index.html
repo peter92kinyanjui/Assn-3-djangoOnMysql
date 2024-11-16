@@ -1,0 +1,227 @@
+{% extends  'layout.html' %}
+{% load static %}
+
+{% block body %}
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+        <div class="carousel-item active">
+          <img src="{% static 'assets/img/PKM Social media thumbnail.png' %}" alt="image">
+          <div class="carousel-container">
+            <h2>Graphic Design</h2>
+            <p>
+                Stand out in the market with our brilliant designs.
+            </p>
+          </div>
+        </div><!-- End Carousel Item -->
+
+        <div class="carousel-item">
+          <img src="{% static 'assets/img/linkedIn Banner.png' %}" alt="image">
+          <div class="carousel-container">
+            <h2>Web Design</h2>
+            <p>
+                Get customized web design from scratch.
+            </p>
+          </div>
+        </div><!-- End Carousel Item -->
+
+        <div class="carousel-item">
+          <img src="{% static 'assets/img/facebook banner.png' %}" alt="image">
+          <div class="carousel-container">
+            <h2>Providing Robust Web services</h2>
+            <p>PKMInvest is one-stop shop for all your web services.We strive and offer best services to all our clients</p>
+          </div>
+        </div><!-- End Carousel Item -->
+
+        <div class="carousel-item">
+          <img src="{% static 'assets/img/linkedIn Banner.png' %}" alt="">
+          <div class="carousel-container">
+            <h2>Affordable Services</h2>
+            <p>
+                Enjoy our great rates and discounts with a guarantee of quality.
+            </p>
+          </div>
+        </div><!-- End Carousel Item -->
+
+        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+        <ol class="carousel-indicators"></ol>
+
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>SERVICES</h2>
+        <p>Providing Robust Web Services</p>
+      </div><!-- End Section Title -->
+
+      <div class="content">
+        <div class="container">
+          <div class="row g-0">
+            <div class="col-lg-3 col-md-6">
+              <div class="service-item">
+                <span class="number">01</span>
+                  <h3 class="service-heading">Web Design</h3>
+                  <img src="{% static 'assets/img/wd.jpeg' %}" alt="" class="serviceimage">
+                  <p>
+                    We create responsive, SEO curated content to drive traffic and make sure your brand is well presented.
+                  </p>
+                </div>
+              </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="service-item">
+                <span class="number">02</span>
+                  <h3 class="service-heading">Questionnaire Scripting</h3>
+                     <img src="{% static 'assets/img/QP.jpeg' %}" alt="" class="serviceimage">
+                  <p>
+                    We offer questionnaire and data analysis services
+                      to help in data collection using digital tools such as kobo collect and survey CTO.
+                  </p>
+                </div>
+              </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="service-item">
+                <span class="number">03</span>
+                  <h3 class="service-heading">Graphic Design</h3>
+                   <img src="{% static 'assets/img/PKM Social media thumbnail.png' %}" alt="" class="serviceimage" >
+                  <p>
+                    We creat brilliant designs and robust custom designs for all your marketing designs.
+                  </p>
+                </div>
+              </div>
+
+
+            <div class="col-lg-3 col-md-6">
+              <div class="service-item">
+                <span class="number">04</span>
+                  <h3 class="service-heading">Data Analysis</h3>
+                  <img src="{% static 'assets/img/data.png' %}" alt="" class="serviceimage">
+                  <p>
+                    We analyze data for you and provide you with excellent reports and interactive dashboards.
+                  </p>
+                </div>
+              </div>
+
+			</div>
+
+       <div class="content">
+        <div class="container">
+          <div class="row g-0">
+
+            <div class="col-lg-3 col-md-6">
+              <div class="service-item">
+                <span class="number">05</span>
+                  <h3 class="service-heading">Web Design Training</h3>
+                  <img src="{% static 'assets/img/dt.png' %}" alt="" class="serviceimage">
+                  <p>
+                    We offer practical web design training affordable and well curated to guarantee success.
+                  </p>
+                </div>
+              </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="service-item">
+                <span class="number">06</span>
+                  <h3 class="service-heading">Web Portal Development</h3>
+                     <img src="{% static 'assets/img/wd.jpeg' %}" alt="" class="serviceimage">
+                  <p>
+                    We develop custom web platforms for businesses
+                      and individuals using robust frameworks such as Django, Flask, Bootstrap, Wordpress.
+                  </p>
+                </div>
+              </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="service-item">
+                <span class="number">07</span>
+                  <h3 class="service-heading">Basic Computer Training</h3>
+                   <img src="{% static 'assets/img/wd.jpeg' %}" alt="" class="serviceimage" >
+                  <p>
+                    We offer easy to learn computer training courses.This is well curated content for new users.
+                  </p>
+                </div>
+              </div>
+
+
+            <div class="col-lg-3 col-md-6">
+              <div class="service-item">
+                <span class="number">08</span>
+                  <h3 class="service-heading">Consultancy</h3>
+                  <img src="{% static 'assets/img/dt.png' %}" alt="" class="serviceimage">
+                  <p>
+                    Reach us today for valuable insights and guidance on IT opportunities and business solutions.
+                  </p>
+                </div>
+              </div>
+          </div>
+
+		  </div>
+		  </div>
+    </section><!-- /Services Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+              <img src="{% static 'assets/img/PKM Social media thumbnail.png' %}" alt="Image" class="img-fluid img-overlap" data-aos="zoom-out">
+            </div>
+            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="content-subtitle text-white opacity-50">Why Choose Us</h3>
+              <h2 class="content-title mb-4">
+                More than <strong>5 year experience</strong> in IT
+                industry
+              </h2>
+              <p class="opacity-50">
+                We brag our robust solutions for new and already established businesses and individuals.
+              </p>
+
+              <div class="row my-5">
+                <div class="col-lg-12 d-flex align-items-start mb-4">
+                  <div>
+                    <h4 class="m-0 h5 text-white">Quality</h4>
+                    <p class="text-white opacity-50">We guarantee qaulity service.</p>
+                  </div>
+                </div>
+                <div class="col-lg-12 d-flex align-items-start mb-4">
+                  <div>
+                    <h4 class="m-0 h5 text-white">Affordable</h4>
+                    <p class="text-white opacity-50">Our Services are pocket friendly and favorable terms.</p>
+                  </div>
+                </div>
+                <div class="col-lg-12 d-flex align-items-start">
+                  <div>
+                    <h4 class="m-0 h5 text-white">Robust solutions</h4>
+                    <p class="text-white opacity-50">We offer custom made products to meet your business needs.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /About Section -->
+
+
+
+  </main>
+{% endblock %}
